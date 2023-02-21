@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    </head>
+    <body>
+        <!-- Weather App -->
+
+
+        <main>
+            <div class="container">
+                <div class="weather_app">
+                    <div class="search_section">
+                        <form>
+                            <input type="search" placeholder="search">
+                        </form>
+                    </div>
+                    <span class="loader"></span>
+                    <div class="weather_body">
+                        <div class="city_name_section"></div>
+                        <div class="country_name_section"></div>
+                        <div class="temp_section">
+                            <div class="icon"></div>
+                            <div class="main_temp"></div>
+                            <div class="max_min">
+                                <div class="max"></div>
+                                <div class="min"></div>
+                            </div>
+                        </div>
+                        <div class="weather_wrap">
+                            <div class="weather_case_section"></div>
+                            <div class="weather_wind_section"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="error_modal">
+                Wrong City!
+            </div>
+        </main>
+
+
+        <!-- Weather App -->
+        <script src="./script.js"></script>
+    </body>
+</html>
